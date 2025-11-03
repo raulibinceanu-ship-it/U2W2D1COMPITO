@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Esercizio Classi JS - User e Pet</title>
+  </head>
+  <body>
+    <h2>Esempio classe User</h2>
+    <script src="script.js"></script>
+
+    <hr />
+    <h2>Form per creare oggetti Pet</h2>
+    <form id="petForm">
+      <label>Nome animale:</label><br />
+      <input type="text" id="petName" /><br />
+
+      <label>Nome padrone:</label><br />
+      <input type="text" id="ownerName" /><br />
+
+      <label>Specie:</label><br />
+      <input type="text" id="species" /><br />
+
+      <label>Razza:</label><br />
+      <input type="text" id="breed" /><br /><br />
+
+      <button type="button" onclick="addPet()">Aggiungi animale</button>
+    </form>
+
+    <h3>Lista animali:</h3>
+    <ul id="petList"></ul>
+  </body>
+</html>
